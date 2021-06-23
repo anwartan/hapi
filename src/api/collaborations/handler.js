@@ -18,7 +18,7 @@ class CollaborationsHandler {
         .addCollaboration(playlistId, userId);
       const response = h.response({
         status: 'success',
-        message: 'Collaboration berhasil ditambahkan',
+        message: 'Kolaborasi berhasil ditambahkan',
         data: {
           collaborationId,
         },

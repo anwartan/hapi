@@ -21,7 +21,7 @@ class MusicsHandler {
     });
     const response = h.response({
       status: 'success',
-      message: 'lagu berhasil ditambahkan',
+      message: 'Lagu berhasil ditambahkan',
       data: {
         songId: musicId,
       },
@@ -59,7 +59,7 @@ class MusicsHandler {
     await this._service.putMusicById(id, request.payload);
     return {
       status: 'success',
-      message: 'lagu berhasil diperbarui',
+      message: 'Lagu berhasil diperbarui',
     };
   }
 
@@ -68,7 +68,7 @@ class MusicsHandler {
     await this._service.deleteMusicById(id);
     return {
       status: 'success',
-      message: 'lagu berhasil dihapus',
+      message: 'Lagu berhasil dihapus',
     };
   }
 }
